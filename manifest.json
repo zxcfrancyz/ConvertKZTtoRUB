@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "KZT to RUB Converter",
+  "version": "1.0.0",
+  "description": "Двухуровневая конвертация цен Steam",
+  "host_permissions": [
+    "https://open.er-api.com/*",
+    "https://cdn.jsdelivr.net/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://store.steampowered.com/*",
+        "https://steamcommunity.com/*"
+      ],
+      "css": ["style.css"],
+      "js": ["script.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}

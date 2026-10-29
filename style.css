@@ -1,0 +1,101 @@
+[data-kzt-converted="true"] {
+  position: static !important;
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  line-height: 1.05 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.discount_prices,
+[data-kzt-parent-row="true"],
+.search_price_discount_combined {
+  position: static !important;
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  flex-wrap: nowrap !important;
+  gap: 5px !important;
+  padding: 0 5px !important;
+  height: auto !important;
+  min-height: 32px !important;
+  width: auto !important;
+}
+
+[data-kzt-parent-row="true"] > br,
+.search_price > br {
+  display: none !important;
+}
+
+.discount_block {
+  display: inline-flex !important;
+  align-items: stretch !important;
+  width: auto !important;
+}
+
+.discount_block .discount_pct {
+  position: static !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 0 5px !important;
+  height: auto !important;
+}
+
+.discount_original_price,
+.discount_final_price {
+  position: static !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+[data-kzt-type="original"],
+[data-kzt-type="original"]::before,
+[data-kzt-type="original"]::after {
+  text-decoration: none !important;
+  content: none !important;
+  display: inline-flex !important;
+}
+
+.kzt-original-price {
+  color: #8f98a0 !important;
+  font-size: 10.5px !important;
+  font-weight: 400 !important;
+  white-space: nowrap !important;
+}
+
+.kzt-converted-rub {
+  color: #66c0f4 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+  margin-top: 1px !important;
+}
+
+[data-kzt-type="discount"] .kzt-converted-rub,
+.kzt-converted-rub--discount {
+  color: #a4d007 !important;
+}
+
+[data-kzt-type="original"] .kzt-original-price,
+[data-kzt-type="original"] .kzt-converted-rub {
+  text-decoration: line-through !important;
+  color: #738895 !important;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+}
+
+.game_purchase_price,
+.search_price,
+.tab_item_discount,
+.search_result_row,
+.tab_item,
+.market_listing_row {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
