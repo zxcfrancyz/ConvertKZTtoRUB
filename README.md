@@ -10,7 +10,7 @@
 
 Для работы расширения в вашем клиенте Steam уже должны быть установлены:
 1. Фреймворк **[Millennium (Steam Homebrew)](https://steambrew.app/ "Millennium Steam Homebrew")**.
-2. Плагин **[Extendium](https://steambrew.app/plugin/788ed8554492")** (добавляет поддержку расширений Chrome прямо в клиент Steam).
+2. Плагин **[Extendium](https://steambrew.app/plugin/788ed8554492)** (добавляет поддержку расширений Chrome прямо в клиент Steam).
 
 ---
 
