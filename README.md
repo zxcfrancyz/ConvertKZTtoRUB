@@ -27,6 +27,7 @@
 ### Шаг 2. Откройте менеджер расширений в Steam
 1. Запустите клиент **Steam**.
 2. В правом верхнем углу (рядом с адресной строкой) нажмите на **иконку пазла (Extendium)**.
+   <img width="2552" height="375" alt="image" src="https://github.com/user-attachments/assets/def93a29-55c1-4416-84a7-c9a9d991a5e5" />
 3. В открывшемся меню выберите **Manage extensions** (Управление расширениями).
 4. В окне менеджера нажмите кнопку **Advanced extension management** — откроется стандартная страница расширений Chromium (`chrome://extensions`).
 
